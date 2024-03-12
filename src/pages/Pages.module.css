@@ -1,0 +1,19 @@
+.container_cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .container_buttons_prev_next {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .container_buttons_prev_next button {
+    width: 100px;
+  }
